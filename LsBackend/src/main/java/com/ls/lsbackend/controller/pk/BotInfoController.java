@@ -7,8 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/pk/")
 public class BotInfoController {
 
+    /**
+     * 返回对局bot信息
+     *
+     * @return 字符串类型的bot信息。
+     */
     @RequestMapping("botinfo/")
     public String botInfo(){
-        return "aaa";
+        return null;
     }
 }
+
