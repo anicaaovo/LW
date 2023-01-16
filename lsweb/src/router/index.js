@@ -47,7 +47,14 @@ const routes = [
     path: "/matchHistory",
     name: "matchHistory_index",
     component: MatchHistoryIndexView,
+  },
+
+  {
+    path: "/:catchAll(.*)",
+    redirect: "/error/"
   }
+
+
 ]
 
 const router = createRouter({
