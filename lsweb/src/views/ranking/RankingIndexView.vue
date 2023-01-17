@@ -1,7 +1,7 @@
 <template>
-    <ContentField>
-      Ranking
-    </ContentField>
+<ContentField>
+
+</ContentField>
 </template>
 
 <script>
