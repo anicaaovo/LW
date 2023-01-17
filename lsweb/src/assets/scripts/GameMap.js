@@ -28,8 +28,22 @@ export class GameMap extends LwGameObject {
     }
 
     render() { //渲染
-        this.ctx.fillStyle = "red";
-        this.ctx.fillRect(0 , 0, this.ctx.canvas.width, this.ctx.canvas.height);
+        const color_even = "#6a5a9c";
+        const color_odd = "#e6c2fd";
+        for (let r = 0; r < this.rows; r++){
+            for (let c = 0; c < this.cols; c++){
+                console.log(r + " " + c);
+                if ((r + c) % 2 === 0) {
+                    this.ctx.fillStyle = color_even;
+                } else {
+                    this.ctx.fillStyle = color_odd;
+                }
+                this.ctx.fillRect(c * this.L, r * this.L, this.L, this.L);
+            }
+        }
     }
 
+    create_walls() {
+
+    }
 }
