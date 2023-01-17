@@ -1,5 +1,6 @@
 <template>
   <div>
+    <lan-tern></lan-tern>
   <NavBar></NavBar>
   <router-view/>
   </div>
@@ -10,10 +11,12 @@
 import NavBar from '@/components/NavBar.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap"
+import LanTern from "@/components/LanTern.vue"
 
 export default {
   components: {
-    NavBar
+    NavBar,
+    LanTern
   }
 }
 </script>

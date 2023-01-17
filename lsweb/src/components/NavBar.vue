@@ -23,6 +23,9 @@
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="navbar-brand" href="#">
+              <img src="@/assets/images/transparentIcon.png" width="33" height="33">
+            </a>
             Anicaa_无害的码农
           </a>
           <ul class="dropdown-menu">

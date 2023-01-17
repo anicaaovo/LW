@@ -1,6 +1,6 @@
 import {LwGameObject} from "@/assets/scripts/LwGameObject";
 
-export class Wall extends LwGameObject() {
+export class Wall extends LwGameObject {
     constructor(row, col, game_map) {
         super();
         this.row = row;
