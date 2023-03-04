@@ -1,3 +1,4 @@
+<!--主页面通常使用index来表示-->
 <template>
     <ContentField>
       Home Page
